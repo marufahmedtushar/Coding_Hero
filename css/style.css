@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+header, footer {
+  background: #dd2476;
+  /* fallback for old browsers */
+  background: var(--bggradient);
+}
+
+header .container-fluid .navbar-nav a{
+ font-size: 15px;
+}
+
+header .container-fluid .navbar-nav a:hover{
+ color: #dddddd;
+}
+
+header .container-fluid .navbar-nav .nav-item,header .container-fluid .navbar a i{
+  padding: 20px;
+}
+header .container .row .col-md-7{
+  padding: 15px 10px 10px 15px;
+}
+header .container .row .col-md-7 button{
+background: #684efb;
+color: #dddddd;
+border-radius: 10px;
+}
+
+header .container .row .col-md-7 h1{
+font-size: 60px;
+padding: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+header .container .row .col-md-7 p{
+font-size: 18px;
+padding: 60px;
+
+}
+
+header .container .row .col-md-5{
+  padding: 15px 10px 10px 15px;
+  height: 700px;
+
+}
+
+main .jumbotron{
+  border-radius: 20px;
+  position: relative;
+  top: -80px;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+main .container .jumbotron h1{
+  font-size: 40px;
+  padding: 15px;
+
+}
+main .container .jumbotron .row .col-md-6 li i{
+  padding: 10px;
+  color:#dddddd;
+  background: #dd2476;
+  border-radius: 15px;
+}
+main .container .jumbotron .row .col-md-6 li{
+list-style: none;
+ padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .container .jumbotron .enroll{
+  background:#dd2476;
+  color: #dddddd;
+  border-radius: 30px;
+}
+main .container .jumbotron .enroll h4{
+  font-size: 18px;
+}
+
+main .container .jumbotron .enroll h4 button{
+  color: #dddddd;
+  background:#684efb;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+main .section1 .container h6{
+ font-weight: bold;
+ font-size: 40px;
+ padding: 30px;
+}
+
+main .section1  .jumbotron .container img{
+  width: 415px;
+}
+
+
+main .section1  .jumbotron .container .notice{
+    color: #dddddd;
+  background:#684efb;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+main .section1  .jumbotron .container .details div{
+  border-radius: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+main .section1  .jumbotron .container .details div p{
+  font-size: 14px;
+}
+main .section1  .jumbotron .container .details div i,main .section2 .tab-content .row .col-md-3 .card .card-body i{
+  padding: 20px;
+  background: #dd2476;
+  border-radius: 40px;
+  color: #dddddd;
+  font-size: 15px;
+}
+
+main .section1  .jumbotron .container .details i{
+  border-radius: 20px;
+}
+main .section1 .col-md-6 .container .row .col-md-6 i{
+color:#EE340C ;
+}
+
+main .section1 .col-md-6 .container .row .col-md-6 p ,main .section1 .col-md-6 .container .row .col-md-12 p{
+  font-size: 15px;
+}
+
+
+.section2{
+  background: #E4F5FF ;
+}
+
+
+main .section2 .container .card ul li .active{
+  color:#dd2476;
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom: 5px solid #684efb;
+}
+
+main .section2 .container .card ul li a{
+  color:#989B9C;
+  font-size: 15px;
+  display: inline-block;
+}
+main .section2 .tab-content .row .col-md-3 .card{
+  padding: 10px;
+  width: 16rem;
+  height: 18rem;
+  border: none;
+  border-radius: 10px;
+
+}
+
+ main .section2 .tab-content .row .col-md-6 .card{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+ }
+
+main .section2 .tab-content .row .col-md-3 .card h5{
+  font-size: 16px;
+
+}
+
+
+
+
+
+
+/*footer*/
+
+footer .container .row .col-md-4 .address  li{
+  padding: 5px;
+  list-style: none;
+  color: #dddddd;
+}
+/*footer .container{
+  height: 420px;
+}*/
+
+footer .container .row .col-md-4 li {
+  list-style: none;
+  padding: 5px;
+}
+footer .container .row .col-md-4 li a{
+  color: #dddddd;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .container .row .col-md-4 .social i{
+padding: 5px;
+}
+footer .container .row .col-md-4 .address  li i{
+  padding: 5px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #dd2476;
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
+
+@media (max-width: 500px) {
+
+main .container .jumbotron .enroll h4{
+  font-size:22px ;
+}
+  main .container .jumbotron .row .col-md-6 li{
+    font-size: 13px;
+  }
+  main .section1  .jumbotron .container img{
+  width: 356px;
+}
+
+main .section1  .jumbotron .container .details div{
+display: inline;
+
+}
+
+
+main .section2 .tab-content .row .col-sm-12 .card{
+  width: 28rem;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer .container .row .col-md-4 img{
+  padding: 15px;
+  width:462px;
+}
+
+.sticky{
+  display: none;
+}
+
+}
