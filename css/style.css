@@ -96,11 +96,45 @@ header .container .row .col-md-5{
 }
 
 
-
-
-
 header .container #carouselExampleCaptions .carousel-indicators li{ 
   margin-top: -110px;
+}
+
+
+
+
+/*Log in*/
+
+header .container .row .col-md-7 .log_heading .jmb{
+  background: #ffffff;
+  border-radius: 23px;
+}
+
+header .container .row .col-md-7 .log_heading .jmb h4{
+  color:rgb(160,0,251);
+}
+
+header .container .row .col-md-7 .log_heading .jmb form input{
+  border-radius: 18px;
+  border: none;
+  border: 1px solid #dddddd;
+}
+
+header .container .row .col-md-7 .log_heading .jmb form button:focus{
+   outline: 0;
+  box-shadow: 0 0 0 0.2rem #ffffff;
+  border: none;
+
+}
+
+header .container .row .col-md-7 .log_heading .jmb form .form-check-label{
+  color: #625E5E;
+  font-weight: bold;
+}
+
+header .container .row .col-md-7 .log_heading .jmb form input:focus,header .container .row .col-md-7 .log_heading .jmb form input .focus{
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #ffffff;
 }
 
 
@@ -471,6 +505,21 @@ footer .container .row .col-md-4 .address  li i{
      width:462px;
    }
   .sticky{
+     display: none;
+   }
+
+   /*Log in*/
+  header .container  .row .logsec{
+     padding: 0px;
+     margin-bottom: 230px;
+
+   }
+  header .container  .row .regsec{
+     padding: 0px;
+     margin-bottom: 120px;
+
+   }
+  header .container  .row .logimg,header .container  .row .regimg{
      display: none;
    }
 }
