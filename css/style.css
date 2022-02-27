@@ -188,6 +188,7 @@ main .container .jumbotron .enroll h4 button{
   background: linear-gradient(90deg, rgba(160,0,251,1) 20%, rgba(249,3,144,1) 100%);
   border-radius: 15px;
   padding: 5px;
+  border: none;
 }
 
 main .section1 .container h6{
@@ -234,6 +235,9 @@ color:#EE340C ;
 main .section1 .col-md-6 .container .row .col-md-6 p ,main .section1 .col-md-6 .container .row .col-md-12 p{
   font-size: 15px;
 }
+
+
+/*  Section 2 */
 
 
 .section2{
@@ -370,6 +374,66 @@ main .section4 .container .row .col-md-6 .accordion .card #collapseSixteen
 
 
 
+
+/*  Section 5 */
+
+
+.show-read-more .more-text{
+  display: none;
+}
+
+#newcarouselExampleCaptions .carousel-indicators li{
+  background: #2484FF;
+  border-radius: 50%;
+  width: 15px;
+
+}
+
+.section5{
+  text-align: center;
+}
+
+.section5 .btn{
+  background: rgb(160,0,251);
+  background: linear-gradient(90deg, rgba(160,0,251,1) 20%, rgba(249,3,144,1) 100%);
+  color: #dddddd;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  display: inline-block;
+  width: 30%;
+}
+.sec5-fluid{
+  background: #F0F0F0;
+}
+
+.section5 .jmb-cmt{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  width: 95%;
+  margin-right: 0 !important;
+}
+
+#phonecarouselExampleCaptions{
+  display: none;
+}
+
+.section5 .sec5-fluid .container h1{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.section5 .sec5-fluid .container a:focus,.section5 .sec5-fluid .container a .focus{
+  outline: 0;
+  color: #ffffff;
+  box-shadow: 0 0 0 0.2rem #ffffff;
+}
+
+
+
+
 /* Scroll Bar */
 
 
@@ -428,6 +492,12 @@ footer .container .row .col-md-4 .address  li i{
 }
 
 @media screen and (max-width: 577px) {
+  .container-fluid .navbar .navbar-toggler-icon{
+     color: #dddddd;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    padding: 2px;
+  }
   main .container .jumbotron .enroll h4{
      font-size:22px ;
    }
@@ -463,6 +533,19 @@ footer .container .row .col-md-4 .address  li i{
     display: inline-block;
    }
 
+   main .section2 .container .card div{
+    text-align: center;
+   }
+   main .section2 .container .card div ul{
+    display: inline-block;
+   }
+
+   main .section2 .container .card ul li i{
+    margin-top: 8px;
+   }
+
+
+
 
 
    /*Section 3*/
@@ -487,11 +570,39 @@ footer .container .row .col-md-4 .address  li i{
 }
 
 
+
 /*Section 4*/
 
 
 .section4 .container .h2{
   padding: 35px;
+}
+
+
+/*Section 5*/
+
+
+#newcarouselExampleCaptions{
+  display: none;
+}
+#phonecarouselExampleCaptions{
+  display: block;
+}
+
+.section5 #phonecarouselExampleCaptions .carousel-indicators li{
+  background: #2484FF;
+  border-radius: 50%;
+  width: 15px;
+
+}
+
+.section5 .btn{
+  width: 60%;
+}
+
+.section5 .sec5-fluid .container h1{
+  font-size: 30px;
+  font-weight: bold;
 }
 
 
